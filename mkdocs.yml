@@ -8,9 +8,6 @@ google_analytics: ['UA-102094061-1', 'cbackup.me']
 
 repo_url: https://github.com/cbackup/main
 
-formats:
-- pdf
-
 pages:
 - Home: index.md
 - Getting started:
@@ -41,6 +38,3 @@ pages:
 markdown_extensions:
   - toc:
       permalink: True
-
-plugins:
-    - search
