@@ -1,0 +1,46 @@
+site_name: cBackup
+site_url: http://cbackup.me
+site_description: Network equipment configuration backup software
+site_author: cBackup Team
+site_favicon: http://cbackup.me/favicon.ico
+
+google_analytics: ['UA-102094061-1', 'cbackup.me']
+
+repo_url: https://github.com/cbackup/main
+
+formats:
+- pdf
+
+pages:
+- Home: index.md
+- Getting started:
+    - Installation: getting-started/installation.md
+    - Initial setup: getting-started/initial-setup.md
+- Administrators guide:
+    - System configuration: administrators-guide/system-configuration.md
+    - User management: administrators-guide/user-management.md
+    - Discovery: administrators-guide/discovery.md
+    - Worker:
+        - Concept: administrators-guide/concept.md
+        - Global variables: administrators-guide/global-variables.md
+        - Processes: administrators-guide/processes.md
+        - Tasks: administrators-guide/tasks.md
+        - Jobs: administrators-guide/jobs.md
+        - Schedules: administrators-guide/schedules.md
+    - Inventory:
+        - Authentication: administrators-guide/authentication.md
+        - Credentials: administrators-guide/credentials.md
+        - Subnets: administrators-guide/subnets.md
+        - Devices: administrators-guide/devices.md
+    - Logs: administrators-guide/logs.md
+    - System update: administrators-guide/update.md
+- Developers guide:
+    - Code convention: developers-guide/code-convention.md
+    - Plugins: developers-guide/plugins.md
+
+markdown_extensions:
+  - toc:
+      permalink: True
+
+plugins:
+    - search
