@@ -32,7 +32,7 @@ pages:
     - Logs: administrators-guide/logs.md
     - System update: administrators-guide/update.md
 - Developers guide:
-    - Code convention: developers-guide/code-convention.md
+    - cBackup architecture: developers-guide/architecture.md
     - Plugins: developers-guide/plugins.md
 
 markdown_extensions:
