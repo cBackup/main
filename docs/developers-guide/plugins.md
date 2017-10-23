@@ -6,7 +6,7 @@ This guide is meant for users who want to help extend cBackup functionality. Our
 
 Functioning plugin relies on Yii2 module concept, therefore must be located in "modules/plugins" directory. When the development process comes to release stage, you want to export it as zip-archive. Zip archive filename must be equal to plugin directory name where every word is separated by underscore. E.g. plugin `geomapping` should be distributed in `geo_mapping.zip` file. 
  
-![Sample plugin structure](assets/plugin-structure.png)
+![Sample plugin structure](../assets/plugin-structure.png)
 
 Sample `geomapping` plugin directory structure is provided above. As you can see plugin is basically default Yii2 module except for some changes. Plugin root folder must contain json file with the same name as plugin directory. Every word in json filename must be separated with underscore, e.g. `geo_mapping.json`
 
@@ -431,20 +431,20 @@ You can access all plugin parameters. Here are some examples how to access plugi
 
 In this example we will create plugin skeleton to better understand plugin creating procedure. So let’s start. We will call our plugin some_example. First we must add entry to plugins table open phpMyAdmin and locate plugins table. See example below.
 
-![Plugin skeleton 1](assets/plugin-skeleton1.png)
+![Plugin skeleton 1](../assets/plugin-skeleton1.png)
 
 During the development you can add params and later use them in your code. After you have finished plugin development move all your created params to installation json file. See json creating file example.
 
 Then we must create plugin skeleton using Yii2 Gii code generator tool `http://localhost/index.php?r=gii` and choose _Module generator_.
 
-![Plugin skeleton 2](assets/plugin-skeleton2.png)
+![Plugin skeleton 2](../assets/plugin-skeleton2.png)
 
 1. Plugin name without underscore
 2. Plugin name in camel case without underscore
 
 After generating module run `yii cache/flush-all` from CLI. In your project you must see something like this:
 
-![Plugin skeleton 3](assets/plugin-skeleton3.png)
+![Plugin skeleton 3](../assets/plugin-skeleton3.png)
 
 But at this moment plugin is not working correctly if you try to open it you will see exception. We need to modify plugin base file. Let’s open base file and register PluginTrait. Your base file must look something like this:
 
@@ -480,7 +480,7 @@ class SomeExample extends \yii\base\Module
 
 Now our new plugin is working. Let’s add all remaining plugin files and directories:
 
-![Plugin skeleton 4](assets/plugin-skeleton4.png)
+![Plugin skeleton 4](../assets/plugin-skeleton4.png)
 
 As you can see we've created `messages` directory with translation for Russian language, and `some_example.json` where plugin metadata and management form information will be stored. Please see this document for detailed explanation about JSON file structure.
 
