@@ -25,21 +25,21 @@ cBackup [siː ˈbækʌp] — free open source network equipment configuration ba
 * OpenSSH
 * libCurl
 * PHP 7.0 or newer with necessary modules
-  * ctype
-  * curl
-  * gmp
-  * intl
-  * mbstring
-  * mysqlnd
-  * openssl
-  * pcre
-  * PDO
-  * pdo_mysql
-  * Reflection
-  * snmp
-  * SPL
-  * SSH2
-  * zip
+    * ctype
+    * curl
+    * gmp
+    * intl
+    * mbstring
+    * mysqlnd
+    * openssl
+    * pcre
+    * PDO
+    * pdo_mysql
+    * Reflection
+    * snmp
+    * SPL
+    * SSH2
+    * zip
 
 # Community and support
 
