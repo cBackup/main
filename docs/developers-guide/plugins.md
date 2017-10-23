@@ -415,17 +415,17 @@ class GeoMappingWidget extends Widget
 You can access all plugin parameters. Here are some examples how to access plugin parameters from specific location.
 
 1. Access to plugin parameters from model
-   1. all parameters - `Yii::$app->controller->module->params;`
-   2. specific parameter - `Yii::$app->controller->module->params[‘key’];`
-   3. translations - `Yii::$app->controller->module::t(‘general’, ‘Test’);`
+    1. all parameters - `Yii::$app->controller->module->params;`
+    2. specific parameter - `Yii::$app->controller->module->params[‘key’];`
+    3. translations - `Yii::$app->controller->module::t(‘general’, ‘Test’);`
 2. Access to plugin parameters from controller
-   1. all parameters - `$this->module->params['plugin access'];`
-   2. specific parameter - `$this->module->params['plugin access'];`
-   3. translations - `$this->module::t('general', ’Test’);`
+    1. all parameters - `$this->module->params['plugin access'];`
+    2. specific parameter - `$this->module->params['plugin access'];`
+    3. translations - `$this->module::t('general', ’Test’);`
 3. Access to plugin parameters from view
-   1. all parameters - `$this->context->module->params['plugin_access'];`
-   2. specific parameter - `$this->context->module ->params['plugin_access'];`
-   3. translations - `$this->context->module::t('general', ’Test’);`
+    1. all parameters - `$this->context->module->params['plugin_access'];`
+    2. specific parameter - `$this->context->module ->params['plugin_access'];`
+    3. translations - `$this->context->module::t('general', ’Test’);`
 
 # Creating plugin basic structure
 
