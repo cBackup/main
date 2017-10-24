@@ -5,8 +5,8 @@ site_author: cBackup Team
 site_favicon: http://cbackup.me/favicon.ico
 
 google_analytics: ['UA-102094061-1', 'cbackup.me']
-
 repo_url: https://github.com/cbackup/main
+extra_css: [assets/cbackup.css]
 
 pages:
 - Home: index.md
@@ -36,5 +36,6 @@ pages:
     - Plugins: developers-guide/plugins.md
 
 markdown_extensions:
+  - admonition
   - toc:
       permalink: True
