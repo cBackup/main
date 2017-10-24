@@ -45,3 +45,8 @@ cBackup [siː ˈbækʌp] — free open source network equipment configuration ba
 
 * Issues can be reported to Github directly or via forum
 * For support you can check cBackup official website and forum. Currently system is provided in its Early Access stage, feel free to request features and new hardware support.
+
+# License
+
+cBackup is published under the GNU Affero General Public License (AGPLv3)<br>
+Copyright 2017 © [cBackup Team](http://cbackup.me): Oļegs Čapligins, Imants Černovs, Dmitrijs Galočkins  
