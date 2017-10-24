@@ -9,6 +9,8 @@ Open `System -> Update` menu and proceed with `Check for updates`. If any update
 
 Live update implements rollback functionality if something goes wrong. However we highly encourage to backup your system and database manually prior to update.
 
+---------
+
 # Manual update
 
 For this guide we'll assume that your cBackup is installed in `/var/www/html`
