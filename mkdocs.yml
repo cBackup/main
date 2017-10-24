@@ -12,12 +12,14 @@ pages:
 - Home: index.md
 - Getting started:
     - Installation: getting-started/installation.md
+    - Concept and terminology: getting-started/concept.md
     - Initial setup: getting-started/initial-setup.md
 - Administrators guide:
     - System configuration: administrators-guide/system-configuration.md
+    - System messages: administrators-guide/system-messages.md
     - User management: administrators-guide/user-management.md
     - Discovery: administrators-guide/discovery.md
-    - Worker:
+    - Background service:
         - Concept: administrators-guide/concept.md
         - Global variables: administrators-guide/global-variables.md
         - Processes: administrators-guide/processes.md
@@ -29,6 +31,9 @@ pages:
         - Credentials: administrators-guide/credentials.md
         - Subnets: administrators-guide/subnets.md
         - Devices: administrators-guide/devices.md
+        - Nodes: administrators-guide/nodes.md
+    - Reporting:
+        - Mail: administrators-guide/mail.md
     - Logs: administrators-guide/logs.md
     - System update: administrators-guide/update.md
 - Developers guide:

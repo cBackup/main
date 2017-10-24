@@ -1,6 +1,7 @@
 # Prepare environment
 
 To use cBackup you want to have Linux server with the following software:
+
 * PHP 7.0 or newer with the following modules:
     * mbstring
     * snmp
@@ -18,8 +19,8 @@ To use cBackup you want to have Linux server with the following software:
     * curl
     * zip
 * Web server (e.g. Apache or NGinx)
-    * PHP support must be enabled
-    * PHP can work as module or FastCGI
+    * PHP must be supported
+    * PHP can work as module or FastCGI/FPM
 * MySQL-compatible database server of 5.7 or newer (Oracle MySQL, MariaDB, Percona)
 * Java Runtime 8.0.10 or newer
 * Git 1.8 or newer
