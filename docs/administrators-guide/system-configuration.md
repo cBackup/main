@@ -13,7 +13,7 @@ There're two configuration sections available: user settings and system-wide set
 
 These settings dilate to the whole system. Four global sections are available in system settings:
 
-## Global settings
+### Global settings
 
 1. **Administrator email**<br>
     Mail recipient for all major reports, by default it's equal to your root user's mail.<br><br>
@@ -25,9 +25,12 @@ These settings dilate to the whole system. Four global sections are available in
     This setting defines how long log entries will be stored in database. Logs are main database disk space consumers, so limiting this value will have major impact on how much disk space database will utilize. By default it's `7` days. For 1200 nodes with daily discovery and backup processes 7 days of logs consume ~13 Mb on INFO logging level.<br><br>
     
 4. **System log level**<br>
-    This setting defines how much detalization do you need. Logging levels are identical to default *nix system logging levels.
+    This setting defines how much detalization do you need. Logging levels are identical to default *nix system logging levels.<br><br>
+    
+5. **Default prepend location**<br>
+    This is a string, that by default will be prepended to all locations in nodes. Can be useful for geolocation.
 
-## Git settings
+### Git settings
 
 1. **Use Git**<br>
     Git functionality is one of main cBackup features and shoud not be ignored if you want to run the tool at its' full potential. Git repository initialization will be run in the directory marked as backup root (see `Path to storage folder` from [Background process settings](#background-process-settings))<br><br>
@@ -36,22 +39,25 @@ These settings dilate to the whole system. Four global sections are available in
     Username and email which will be used as author credentials for configuration file commits<br><br>
     
 4. **Use git remote**<br>
-    You can push data to remote Git repository, if you would like to use it as additional safety replication layer. E.g. you can push it to your local gitlab installation. 
+    You can push data to remote Git repository, if you would like to use it as additional safety replication layer. E.g. you can push it to your local gitlab installation. If you use **git remote**, it's also necessary to enter valid data in **git login** and **git password** fields in the configuration.
     
     !!! warning
          We strictly discourage you from using Github, Bitbucket or any other public services as long as your configuration files can contain sensitive data.
     
 3. **Git path**<br>
-    Path to git executable, ensure it's valid
+    Path to git executable, ensure it's valid<br><br>
+    
+4. **Git log display period**<br>
+    For what perios in days changes in configuration will be displayed under <i class="fa fa-undo"></i> button. Please note, that commit log itself is not truncated, this setting only affects data in the web interface popup under <i class="fa fa-undo"></i> button.
     
 !!! note
     After saving configuration, two buttons on top of the section's panel will become available: **Init repository** and **Reinit Git settings**. You want to initialize repository upon the first run to start using Git. Initialization writes down `.git` folder with related metadata.
 
-## Mailer settings
+### Mailer settings
 
 All settings should be understandable. You can adjust sender address and choose between SMTP or sendmail transport, adjusting related variables if necessary. These settings will be used sending regular scheduled reports or dumping critical errors in case of emergency.
 
-## Background process settings
+### Background process settings
 
 These settings are related to the cBackup Java daemon:
 

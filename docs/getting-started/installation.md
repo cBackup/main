@@ -1,6 +1,6 @@
 # Prepare environment
 
-To use cBackup you want to have Linux server with the following software:
+To use cBackup you want to have Linux server (Windows is not officially supported yet) with the following software:
 
 * PHP 7.0 or newer with the following modules:
     * mbstring
