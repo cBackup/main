@@ -9,3 +9,53 @@
 #teminology-table ~ table div.warning {
     margin-bottom: 0;
 }
+
+.rst-content .cite,
+.rst-content .success {
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.rst-content .cite p:last-child,
+.rst-content .success p:last-child {
+    margin-bottom: 0;
+}
+
+.rst-content .cite .admonition-title:before,
+.rst-content .success .admonition-title:before {
+    content: '';
+    margin: 0;
+}
+
+.rst-content .cite { background: #eeeeee; }
+.rst-content .cite .admonition-title { background: #888888; }
+
+.rst-content .success { background: #dbfaf4; }
+.rst-content .success .admonition-title { background: #1abc9c; }
+
+.rst-content .success .admonition-title:before {
+    content: "";
+    margin-right: 4px;
+}
+
+.rst-content table.docutils img {
+    max-width: none;
+    height: 100% !important;
+}
+
+.rst-content li p ~ table.docutils {
+    margin-top: -12px;
+}
+
+.rst-content .section ul code {
+    line-height: 17px;
+}
+
+.rst-content .section ul p ~ pre {
+    margin-top: -12px;
+}
+
+.rst-content .section li pre {
+    margin-top: 0px;
+}
