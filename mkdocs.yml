@@ -18,17 +18,15 @@ pages:
     - System configuration: administrators-guide/system-configuration.md
     - System messages: administrators-guide/system-messages.md
     - User management: administrators-guide/user-management.md
-    - Discovery: administrators-guide/discovery.md
-    - Background service:
+    - Processes:
         - Concept: administrators-guide/concept.md
         - Global variables: administrators-guide/global-variables.md
-        - Processes: administrators-guide/processes.md
         - Tasks: administrators-guide/tasks.md
         - Jobs: administrators-guide/jobs.md
         - Schedules: administrators-guide/schedules.md
+    - Discovery: administrators-guide/discovery.md
     - Inventory:
         - Authentication: administrators-guide/authentication.md
-        - Credentials: administrators-guide/credentials.md
         - Subnets: administrators-guide/subnets.md
         - Devices: administrators-guide/devices.md
         - Nodes: administrators-guide/nodes.md
@@ -36,9 +34,14 @@ pages:
         - Mail: administrators-guide/mail.md
     - Logs: administrators-guide/logs.md
     - System update: administrators-guide/update.md
+    - Plugins:
+        - Geolocation: administrators-guide/plugins/geolocation.md
 - Developers guide:
     - cBackup architecture: developers-guide/architecture.md
     - Plugins: developers-guide/plugins.md
+    - Java: developers-guide/java.md
+    - API v1: developers-guide/apiv1.md
+    - API v2: developers-guide/apiv2.md
 
 markdown_extensions:
   - admonition
