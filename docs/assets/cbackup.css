@@ -57,5 +57,12 @@
 }
 
 .rst-content .section li pre {
-    margin-top: 0px;
+    margin-top: 0;
+}
+
+.text-danger {
+    color: darkred;
+}
+.text-success {
+    color: darkgreen;
 }

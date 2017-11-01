@@ -1,9 +1,8 @@
+> ##### This repository contains cBackup documentation and releases
+
 # cBackup
 
-cBackup [siː ˈbækʌp] — network equipment configuration backup tool.<br>
-This repository contains cBackup documentation and releases.<br>
-Also you may check out the official cBackup website <http://cbackup.me> for community help, discussions and usecases.<br>
-Easy-to-use documentation is available on [ReadTheDocs.io](http://http://cbackup.rtfd.io/)
+cBackup [siː ˈbækʌp] — network equipment configuration backup tool. You may check out the official cBackup website <http://cbackup.me> for community help, discussions and usecases. Easy-to-use documentation is available on [cbackup.readthedocs.io](http://http://cbackup.rtfd.io/)
 
 # Essentials and system requirements
 
