@@ -20,7 +20,7 @@ If any network contains node(s) you want to exclude from processing by cBackup, 
 
 # Add new node manually
 
-You can add nodes manually, not involving network discovery process. To do so, use `Nodes -> Add manually` menu and fill up the form. Prior to adding new node manually, make sure you have corresponding suitable credentials set saved in [Credentials](credentials) page.
+You can add nodes manually, not involving network discovery process. To do so, use `Nodes -> Add manually` menu and fill up the form. Prior to adding new node manually, make sure you have corresponding suitable credentials set saved in [Credentials](authentication/#credentials) page.
 
 1. Enter IP-address and choose corresponding credentials from dropdown list.
 2. Press `SNMP inquire`. If SNMP polling works, form will be filled with retrieved data. Otherwise the error will be displayed.

@@ -32,7 +32,7 @@ Now you have all your nodes discovered, but cBackup does not know what to do wit
 
 To assign workers and jobs to tasks go to `Processes -> Workers & Jobs`. Press `Add worker` and fill out all required fields. Set task to `backup` and protocol to `SSH` or `Telnet`. We consider SSH more preferable than Telnet, however you are free to choose. Now you want to add jobs to worker. Find your newly created worker and point mouse over it, you will see available actions press `+` to create new job. Add all necessary jobs for your device to get configuration from it. 
 
-For more detailed information about how to create workers and jobs please see [related chapter of documentation](../administrators-guide/processes)
+For more detailed information about how to create workers and jobs please see [related chapter of documentation](../administrators-guide/workers)
 
 # 7. Assign task to nodes
 
@@ -40,11 +40,13 @@ To assign task `backup` to existing nodes and devices, go to `Processes -> Task 
 
 Now go to `Processes -> Task assignments` and select `Node tasks` tab. Press `Advanced task assign`. In the form choose task `backup` and leave the worker empty. Confirm. You will be redirected to assignment form. Choose all nodes you want to backup.
 
-For more detailed information about how to create workers and jobs please see [related chapter of documentation](../administrators-guide/processes)
+For more detailed information about how to create workers and jobs please see [related chapter of documentation](../administrators-guide/tasks/#assign-tasks)
 
 # 8. Scheduling
 
 The only thing left is adding task to schedule. Go to `Processes -> Schedules` and press `Add scheduled task` button. In the form set task name to `backup` and choose time when you want the task to start. Restart Java Scheduler. Now backup task will start at the time you specified. To run task backup at any time go to `Schedules`, find task backup in the list and press start button next to it.
+
+For more detailed information about how to manage schedules please see [related chapter of documentation](../administrators-guide/processes/#schedules)
 
 # 9. Configure version control
 

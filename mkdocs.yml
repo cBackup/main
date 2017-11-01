@@ -2,7 +2,6 @@ site_name: cBackup
 site_url: http://cbackup.me
 site_description: Network equipment configuration backup software
 site_author: cBackup Team
-site_favicon: http://cbackup.me/favicon.ico
 
 google_analytics: ['UA-102094061-1', 'cbackup.me']
 repo_url: https://github.com/cbackup/main
@@ -14,28 +13,27 @@ pages:
     - Installation: getting-started/installation.md
     - Concept and terminology: getting-started/concept.md
     - Initial setup: getting-started/initial-setup.md
-- Administrators guide:
-    - System configuration: administrators-guide/system-configuration.md
-    - System messages: administrators-guide/system-messages.md
-    - User management: administrators-guide/user-management.md
-    - Processes:
-        - Concept: administrators-guide/concept.md
-        - Global variables: administrators-guide/global-variables.md
-        - Tasks: administrators-guide/tasks.md
-        - Jobs: administrators-guide/jobs.md
-        - Schedules: administrators-guide/schedules.md
-    - Discovery: administrators-guide/discovery.md
-    - Inventory:
-        - Authentication: administrators-guide/authentication.md
-        - Subnets: administrators-guide/subnets.md
-        - Devices: administrators-guide/devices.md
-        - Nodes: administrators-guide/nodes.md
-    - Reporting:
-        - Mail: administrators-guide/mail.md
-    - Logs: administrators-guide/logs.md
-    - System update: administrators-guide/update.md
-    - Plugins:
-        - Geolocation: administrators-guide/plugins/geolocation.md
+- System configuration: administrators-guide/system-configuration.md
+- System messages: administrators-guide/system-messages.md
+- User management: administrators-guide/user-management.md
+- Content delivery: administrators-guide/cds.md
+- Processes:
+    - General info: administrators-guide/processes.md
+    - Tasks: administrators-guide/tasks.md
+    - Workers & jobs: administrators-guide/workers.md
+- Discovery: administrators-guide/discovery.md
+- Inventory:
+    - Authentication: administrators-guide/authentication.md
+    - Subnets: administrators-guide/subnets.md
+    - Devices: administrators-guide/devices.md
+    - Nodes: administrators-guide/nodes.md
+- Reporting:
+    - Mail: administrators-guide/mail.md
+- Logs: administrators-guide/logs.md
+- System update: administrators-guide/update.md
+- Plugins:
+    - General information: administrators-guide/plugins.md
+    - Geolocation: administrators-guide/plugins/geolocation.md
 - Developers guide:
     - cBackup architecture: developers-guide/architecture.md
     - Plugins: developers-guide/plugins.md
