@@ -6,9 +6,9 @@ _Task_ | _Protected_ | _Nodes_ | _Devices_ | _Description_
 ------------ | ------------- | ------------- | ------------- | -------------
 backup | yes | yes | yes | Retrieve nodes configuration
 discovery | yes | no | no | Discover new and update existing nodes
-git_commit | yes | no | yes | Commit obtained configuration to git. In [system settings](system-configuration/#git-settings) git repository for configs must be configured and initialized. Check [corresponding manual](system-configuration/#git-settings) for Git configuration.
-log_processing | yes | no | yes | Clear outdated logs. Additionally configured in [system settings](system-configuration/#system-settings) via parameter `Logs lifetime` (7 days by default)
-node_processing | yes | no | yes | Clear outdated nodes which were not online for certain time. Additionally configured in [system settings](system-configuration/#system-settings) via parameter `Nodes lifetime` (unlimited by default).
+git_commit | yes | no | no | Commit obtained configuration to git. In [system settings](system-configuration/#git-settings) git repository for configs must be configured and initialized. Check [corresponding manual](system-configuration/#git-settings) for Git configuration.
+log_processing | yes | no | no | Clear outdated logs. Additionally configured in [system settings](system-configuration/#system-settings) via parameter `Logs lifetime` (7 days by default)
+node_processing | yes | no | no | Clear outdated nodes which were not online for certain time. Additionally configured in [system settings](system-configuration/#system-settings) via parameter `Nodes lifetime` (unlimited by default).
 save | yes | yes | yes | Save configuration on nodes, can be useful to additionally secure node from losing unsaved config
 stp | yes | yes | yes | Retrieve STP information from nodes
 

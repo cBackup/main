@@ -1,4 +1,4 @@
-Live update subsystem utilizes Git and Yii2 migration functionality. To use live update on the installed cBackup you will need to have internet access from the server. If your cBackup system is zero-access (no access to the internet), the only option is to update cBackup manually.
+Live update subsystem utilizes Git and Yii2 migration functionality. To use live update on the installed cBackup you will need to have internet access from the server. If your cBackup system is isolated (no access to the internet), the only option is to update cBackup manually.
 
 # Live update
 
