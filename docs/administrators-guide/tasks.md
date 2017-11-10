@@ -12,7 +12,7 @@ node_processing | yes | no | no | Clear outdated nodes which were not online for
 save | yes | yes | yes | Save configuration on nodes, can be useful to additionally secure node from losing unsaved config
 stp | yes | yes | yes | Retrieve STP information from nodes
 
-In the task list you can see all available tasks grouped by destination and to check if there're any assignments exist and to edit or assign them as well:
+In the task list you can see all available tasks grouped by destination and to check if there're any assignments exist and to edit or assign them as well. Please note, that column `Task Type` is displayed only in the list of tasks for information purposes. All custom tasks you create automatically acquire `Node task` type. Creating system task or defining new task type requires diving deeper into development, working with Java daemon and API. Also, task type `Yii command` is assigned to plugin-related tasks only. 
 ![](../assets/task1.png) 
 
 # Assign tasks
