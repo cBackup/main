@@ -15,19 +15,22 @@ These settings dilate to the whole system. Four global sections are available in
 
 ### Global settings
 
-1. **Administrator email**<br>
+1. **Isolated system**<br>
+    If system is isolated, there's no access to the internet, therefore some features will not be available in isolated mode: i.e. [live update](update#live-update) and [content delivery](cds).<br><br> 
+
+2. **Administrator email**<br>
     Mail recipient for all major reports, by default it's equal to your root user's mail.<br><br>
 
-2. **Nodes lifetime**<br>
+3. **Nodes lifetime**<br>
     This settings defines how long unreachable node will stay in database. By default it's `0`, so no nodes will be purged from database. Adjust this value according to your needs and policies.<br><br>
 
-3. **Logs lifetime**<br>
+4. **Logs lifetime**<br>
     This setting defines how long log entries will be stored in database. Logs are main database disk space consumers, so limiting this value will have major impact on how much disk space database will utilize. By default it's `7` days. For 1200 nodes with daily discovery and backup processes 7 days of logs consume ~13 Mb on INFO logging level.<br><br>
     
-4. **System log level**<br>
+5. **System log level**<br>
     This setting defines how much detalization do you need. Logging levels are identical to default *nix system logging levels.<br><br>
     
-5. **Default prepend location**<br>
+6. **Default prepend location**<br>
     This is a string, that by default will be prepended to all locations in nodes. Can be useful for geolocation.
 
 ### Git settings
@@ -51,7 +54,7 @@ These settings dilate to the whole system. Four global sections are available in
     For what perios in days changes in configuration will be displayed under <i class="fa fa-undo"></i> button. Please note, that commit log itself is not truncated, this setting only affects data in the web interface popup under <i class="fa fa-undo"></i> button.
     
 !!! note
-    After saving configuration, two buttons on top of the section's panel will become available: **Init repository** and **Reinit Git settings**. You want to initialize repository upon the first run to start using Git. Initialization writes down `.git` folder with related metadata.
+    After saving configuration, two buttons on top of the section's panel will become available: **Init repository** and **Reinit Git settings**. You want to initialize repository upon the first run to start using Git and if you've changed any git-related setting. Initialization writes down `.git` folder with related metadata.
 
 ### Mailer settings
 

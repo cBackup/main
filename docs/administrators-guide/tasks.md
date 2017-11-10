@@ -6,13 +6,13 @@ _Task_ | _Protected_ | _Nodes_ | _Devices_ | _Description_
 ------------ | ------------- | ------------- | ------------- | -------------
 backup | yes | yes | yes | Retrieve nodes configuration
 discovery | yes | no | no | Discover new and update existing nodes
-git_commit | yes | no | yes | Commit obtained configuration to git. In [system settings](system-configuration/#git-settings) git repository for configs must be configured and initialized. Check [corresponding manual](system-configuration/#git-settings) for Git configuration.
-log_processing | yes | no | yes | Clear outdated logs. Additionally configured in [system settings](system-configuration/#system-settings) via parameter `Logs lifetime` (7 days by default)
-node_processing | yes | no | yes | Clear outdated nodes which were not online for certain time. Additionally configured in [system settings](system-configuration/#system-settings) via parameter `Nodes lifetime` (unlimited by default).
+git_commit | yes | no | no | Commit obtained configuration to git. In [system settings](system-configuration/#git-settings) git repository for configs must be configured and initialized. Check [corresponding manual](system-configuration/#git-settings) for Git configuration.
+log_processing | yes | no | no | Clear outdated logs. Additionally configured in [system settings](system-configuration/#system-settings) via parameter `Logs lifetime` (7 days by default)
+node_processing | yes | no | no | Clear outdated nodes which were not online for certain time. Additionally configured in [system settings](system-configuration/#system-settings) via parameter `Nodes lifetime` (unlimited by default).
 save | yes | yes | yes | Save configuration on nodes, can be useful to additionally secure node from losing unsaved config
 stp | yes | yes | yes | Retrieve STP information from nodes
 
-In the task list you can see all available tasks grouped by destination and to check if there're any assignments exist and to edit or assign them as well:
+In the task list you can see all available tasks grouped by destination and to check if there're any assignments exist and to edit or assign them as well. Please note, that column `Task Type` is displayed only in the list of tasks for information purposes. All custom tasks you create automatically acquire `Node task` type. Creating system task or defining new task type requires diving deeper into development, working with Java daemon and API. Also, task type `Yii command` is assigned to plugin-related tasks only. 
 ![](../assets/task1.png) 
 
 # Assign tasks

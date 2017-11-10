@@ -34,12 +34,13 @@ pages:
 - Plugins:
     - General information: administrators-guide/plugins.md
     - Geolocation: administrators-guide/plugins/geolocation.md
-- Developers guide:
-    - cBackup architecture: developers-guide/architecture.md
-    - Plugins: developers-guide/plugins.md
-    - Java: developers-guide/java.md
-    - API v1: developers-guide/apiv1.md
-    - API v2: developers-guide/apiv2.md
+- Contributors guide:
+    - Translation: contributors-guide/translation.md
+    - cBackup architecture: contributors-guide/architecture.md
+    - Plugins: contributors-guide/plugins.md
+    - Java: contributors-guide/java.md
+    - API v1: contributors-guide/apiv1.md
+    - API v2: contributors-guide/apiv2.md
 
 markdown_extensions:
   - admonition
