@@ -7,7 +7,7 @@ Logs generally provide brief and readable description what happened in the parti
 
 # Logging realms
 
-There are four logging realms in cBackup:
+There are four logging realms in cBackup web core:
 
 1. **System**<br>
     Into this realm logs from system environment are captured. E.g. plugin installation errors, update exceptions, etc.<br><br>
@@ -18,3 +18,6 @@ There are four logging realms in cBackup:
 4. **Mailer**<br>
     As the name implies, logs in this realms are related to sent reports. If you don't receive mail, check this page for information what happens.
     
+# Daemon logs
+
+Check [corresponding section of daemon manual](daemon/#logs)

@@ -30,7 +30,7 @@ For this guide we'll assume that your cBackup is installed in `/var/www/html`
  
 4. Stop the service
     
-        $ /var/www/html/service.sh stop
+        $ sudo systemctl stop cbackup
 
 5. Unpack downloaded archive to your cBackup installation overriding all files
     
@@ -38,21 +38,17 @@ For this guide we'll assume that your cBackup is installed in `/var/www/html`
 
 6. Remove archive 
     
-        $ rm /opt/update.zip
+        $ rm -f /opt/update.zip
 
-7. Restore permissions 
-     
-        $ /var/www/html/setpermissions.sh
-
-8. Update database
+7. Update database
     
         $ /var/www/html/yii migrate
 
-9. Start service 
+8. Start service 
     
-        $ /var/www/html/service.sh start
+        $ sudo systemctl start cbackup
 
-10. Remove lock file 
+9. Remove lock file 
     
         $ rm /var/www/html/update.lock
 

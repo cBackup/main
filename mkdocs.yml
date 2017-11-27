@@ -10,13 +10,14 @@ extra_css: [assets/cbackup.css]
 pages:
 - Home: index.md
 - Getting started:
-    - Installation: getting-started/installation.md
+    - cBackup installation: getting-started/install.md
     - Concept and terminology: getting-started/concept.md
     - Initial setup: getting-started/initial-setup.md
 - System configuration: administrators-guide/system-configuration.md
-- System messages: administrators-guide/system-messages.md
 - User management: administrators-guide/user-management.md
 - Content delivery: administrators-guide/cds.md
+- Notification area: administrators-guide/notification-area.md
+- System daemon: administrators-guide/daemon.md
 - Processes:
     - General info: administrators-guide/processes.md
     - Tasks: administrators-guide/tasks.md
@@ -30,6 +31,7 @@ pages:
 - Reporting:
     - Mail: administrators-guide/mail.md
 - Logs: administrators-guide/logs.md
+- System messages: administrators-guide/system-messages.md
 - System update: administrators-guide/update.md
 - Plugins:
     - General information: administrators-guide/plugins.md
@@ -38,11 +40,21 @@ pages:
     - Translation: contributors-guide/translation.md
     - cBackup architecture: contributors-guide/architecture.md
     - Plugins: contributors-guide/plugins.md
-    - Java: contributors-guide/java.md
+    - Java: contributors-guide/java1.md
+    - application.properties: contributors-guide/java2.md
     - API v1: contributors-guide/apiv1.md
     - API v2: contributors-guide/apiv2.md
+    - Testing: contributors-guide/testing.md
+- Internal pages:
+    - CentOS 7: getting-started/servers/centos7.md
+    - Ubuntu 16: getting-started/servers/ubuntu16.md
+    - Web core: getting-started/install-web.md
+    - Registering service: getting-started/servers/service.md
 
 markdown_extensions:
   - admonition
   - toc:
       permalink: True
+
+theme:
+  name: readthedocs
