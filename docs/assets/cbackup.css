@@ -66,3 +66,7 @@
 .text-success {
     color: darkgreen;
 }
+
+div[role=navigation] > ul > li.toctree-l1:last-child {
+    display: none;
+}

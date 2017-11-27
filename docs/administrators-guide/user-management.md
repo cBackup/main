@@ -9,9 +9,9 @@ cBackup user management is based on Yii2 RBAC model as implementation of [CSRC N
 
 Alongside with regular users, there're three system users, that are considered as *'protected'*. These users can't be deleted or disabled, but you still are able to change passwords and access tokens for them:
 
-* Username: `Java Core`; login: `JAVACORE`<br>
+* Username: `cBackup Service`; login: `JAVACORE`<br>
     is used as relation accessor between Java daemon and cBackup API<br><br>  
-* Username: `Console APP`; login: `CONSOLE_APP`<br>
+* Username: `cBackup Console`; login: `CONSOLE_APP`<br>
     is used for writing logs from console workers.<br><br>
 * Username: `Admin`; login: `ADMIN`<br>
     is created during installation process and used as root access to cBackup. 
@@ -23,7 +23,7 @@ These entries represent RBAC model access-level entities of two types: Roles and
 * **admin**, type: `Role`<br>
     system entity for root user;<br><br>
 * **APICore**, type: `Permission`<br>
-    system entity for `Java Core` user granting him permission to invoke private API calls;<br><br> 
+    system entity for `JAVACORE` user granting him permission to invoke private API calls;<br><br> 
 * **APIReader**, type: `Permission`<br>
     system entity granting permission to invoke public API calls.
 

@@ -20,27 +20,20 @@ cBackup [siː ˈbækʌp] — free open source network equipment configuration ba
 * Linux server
 * Web server
 * Java 8, JRE
-* MySQL 5.7 or newer (or compatible MariaDB, Percona, etc)
+* MySQL 5.5 or newer (or compatible MariaDB, Percona, etc)
 * Git 2.7 or newer
 * NetSNMP
 * OpenSSH
 * libCurl
-* PHP 7.0 or newer with necessary modules
-    * ctype
-    * curl
-    * gmp
-    * intl
-    * mbstring
-    * mysqlnd
-    * openssl
-    * pcre
-    * PDO
-    * pdo_mysql
-    * Reflection
-    * snmp
-    * SPL
-    * SSH2
-    * zip
+* PHP 7.0 or newer with necessary modules: _ctype, curl, gmp, intl, mbstring. mysqlnd, openssl, pcre, PDO, pdo_mysql, Reflection, snmp, SPL, SSH2, zip_
+
+# Downloads
+
+Type | Link and version
+--------- | ---------
+Production stable release | n/a
+Debug/devel release | n/a
+Nightly/beta version | n/a 
 
 # Community and support
 

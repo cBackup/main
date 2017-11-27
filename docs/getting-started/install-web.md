@@ -1,35 +1,4 @@
-# Prepare environment
-
-To use cBackup you want to have Linux server (Windows is not officially supported yet) with the following software:
-
-* PHP 7.0 or newer with the following modules:
-    * mbstring
-    * snmp
-    * SSH2
-    * Reflection
-    * pcre
-    * spl
-    * ctype
-    * openssl
-    * intl
-    * mysqlnd
-    * pdo_mysql
-    * PDO
-    * gmp
-    * curl
-    * zip
-* Web server (e.g. Apache or NGinx)
-    * PHP must be supported
-    * PHP can work as module or FastCGI/FPM
-* MySQL-compatible database server of 5.7 or newer (Oracle MySQL, MariaDB, Percona)
-* Java Runtime 8.0.10 or newer
-* Git 1.8 or newer
-* NetSNMP 5.7 or newer
-* libCurl 7.29 or newer
-
-# Install cBackup
-
-Installation process is maintained by wizard and contains of 5 steps. Every step is reversable, so you are able to go back manually or wizard will redirect you to the erroneous step giving you a chance to fix certain options. 
+This process is maintained by wizard and contains of 5 steps. Every step is reversable, so you are able to go back manually or wizard will redirect you to the erroneous step giving you a chance to fix certain options.
 
 ## 1. Initialization
 
@@ -71,8 +40,7 @@ Also all files and directories permissions will be checked. Look through if ever
 
 ## 5. Finalizing
 
-The final step removes all runtime installation data from the system and redirects you to the authentication page. 
+The final step removes all runtime installation data from the system and redirects you to the authentication page.
 
-------------
-
-Now you may proceed with [initial cBackup setup](initial-setup), adjusting your networks, credentials, schedules and all other parts of configuration backup processes.
+!!! note
+    Now you have to [register cBackup service](/getting-started/servers/service.md)

@@ -33,7 +33,7 @@ POST | create data
 
 # REST response codes
 
-_Code | _Description_
+_Code_ | _Description_
 ------------ | -------------
 200 | Success + DATA (GET SUCCESS, PUT SUCCESS)
 201 | Created + DATA (POST SUCCESS)
