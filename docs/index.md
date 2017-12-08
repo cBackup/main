@@ -21,7 +21,7 @@ cBackup [siː ˈbækʌp] — free open source network equipment configuration ba
 * Web server
 * Java 8, JRE
 * MySQL 5.5 or newer (or compatible MariaDB, Percona, etc)
-* Git 2.7 or newer
+* Git 1.8 or newer
 * NetSNMP
 * OpenSSH
 * libCurl
@@ -41,7 +41,11 @@ Nightly/beta version | n/a
 * For support you can check [cBackup official website](http://cbackup.me) and [forum](http://cbackup.me/forum);
 * Currently system is provided in its Early Access stage, feel free to request features and new hardware support.
 
-# License
+# cBackup Software License
 
 cBackup is published under the GNU Affero General Public License (AGPLv3)<br>
 Copyright 2017 © **cBackup Team**: Oļegs Čapligins, Imants Černovs, Dmitrijs Galočkins  
+
+# cBackup Documentation License
+
+Except where otherwise noted, content on this documentation is distributed under the following license: [CC Attribution-Noncommercial-Share Alike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)

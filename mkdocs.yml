@@ -50,6 +50,7 @@ pages:
     - Ubuntu 16: getting-started/servers/ubuntu16.md
     - Web core: getting-started/install-web.md
     - Registering service: getting-started/servers/service.md
+    - Documentation license: LICENSE.md
 
 markdown_extensions:
   - admonition
