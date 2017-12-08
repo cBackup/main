@@ -8,7 +8,7 @@ reboot
 #### Install required software
 
 ```bash
-sudo yum install -y chrony wget mlocate git net-snmp net-tools epel-release yum-utils jre 
+sudo yum install -y chrony wget git net-snmp epel-release yum-utils jre 
 ```
     
 #### Install web server
