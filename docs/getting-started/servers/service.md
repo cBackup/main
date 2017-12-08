@@ -3,7 +3,13 @@
 ```bash
 # Copy service systemctl script
 cd /var/www/html
+
+# For CentOS
 cp bin/system/systemctl/usr/lib/systemd/system/cbackup.service /usr/lib/systemd/system/
+
+# For Ubuntu
+cp bin/system/systemctl/usr/lib/systemd/system/cbackup.service /etc/systemd/system
+
 systemctl daemon-reload
 
 # Run and enable daemon
