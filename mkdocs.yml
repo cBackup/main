@@ -46,10 +46,11 @@ pages:
     - API v2: contributors-guide/apiv2.md
     - Testing: contributors-guide/testing.md
 - Internal pages:
+    - General: getting-started/servers/general.md
+    - CentOS 6: getting-started/servers/centos6.md
     - CentOS 7: getting-started/servers/centos7.md
     - Ubuntu 16: getting-started/servers/ubuntu16.md
     - Web core: getting-started/install-web.md
-    - Registering service: getting-started/servers/service.md
     - Documentation license: LICENSE.md
 
 markdown_extensions:

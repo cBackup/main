@@ -84,3 +84,11 @@ These settings are related to the cBackup Java daemon:
     
 7. **Thread count**<br>
     How much threads Java daemon will launch. For two cores on VM on Xeon E5620, 30 threads utilizes CPU completely when backup is running, but yet without excessive overload
+
+### Server credentials
+
+These are credentials used by cBackup web core to connect _to the server_ via SSH protocol to start, stop or restart cBackup system daemon.
+
+### Daemon credentials
+
+These are credentials used by cBackup web core to connect _to the java daemon socket_ via SSH protocol to manage the internal daemon scheduler.

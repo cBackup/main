@@ -15,3 +15,7 @@ By pressing <i class="fa fa-caret-square-o-down"></i> you can look through the c
 # Managing installed entities
 
 Once entry is downloaded it can be removed via corresponding cBackup functions as [device management](devices/#device-management) and [authentication template management](authentication/#authentication-templates). For reinstalling entry - see warning above.
+
+# Isolated system
+
+If your cBackup appliance doesn't have access to the internet and can't fetch data from [cbackup content repository](https://github.com/cBackup/content), you can manually [download the repository as zip file](https://github.com/cBackup/content/archive/master.zip) and extract it to `/cbackup/modules/cds/content/` folder. Of course content update feature won't be available and it will be necessary to reupload data manually every time you need an update.  
