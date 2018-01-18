@@ -2,7 +2,7 @@
 
 # cBackup
 
-cBackup [siː ˈbækʌp] — network equipment configuration backup tool. You may check out the official cBackup website <http://cbackup.me> for community help, discussions and usecases. Easy-to-use documentation is available on [cbackup.readthedocs.io](http://http://cbackup.rtfd.io/)
+cBackup [siː ˈbækʌp] — network equipment configuration backup tool. You may check out the official cBackup website <http://cbackup.me> for community help, discussions and usecases. Easy-to-use documentation is available on [cbackup.readthedocs.io](http://cbackup.rtfd.io/)
 
 # Downloads
 
@@ -34,4 +34,4 @@ cBackup is intended for usage in Linux environment. It consists of two parts: we
 # License
 
 Published under the GNU Affero General Public License (AGPLv3)<br>
-Copyright 2017 © [cBackup Team](http://cbackup.me): Oļegs Čapligins, Imants Černovs, Dmitrijs Galočkins  
+Copyright 2017 © cBackup Team: Oļegs Čapligins, Imants Černovs, Dmitrijs Galočkins  
