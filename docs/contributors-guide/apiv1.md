@@ -1,5 +1,5 @@
 !!! note "Description"
-    API v1 is RESTful API for Java daemon. Extend it only if you are adding new functionality to the daemon or modifying/fixing existing processes. Check the [flow scheme](../assets/rest_flow_2017-02-06.jpg) if Java is strong in you.
+    API v1 is RESTful API for Java daemon. Extend it only if you are adding new functionality to the daemon or modifying/fixing existing processes. Check the [flow scheme](../assets/rest_flow_2017-03-29.png) if Java is strong in you.
 
 * **Response format:** JSON
 * **Sessions:** none
