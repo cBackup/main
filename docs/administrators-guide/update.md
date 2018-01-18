@@ -52,4 +52,8 @@ For this guide we'll assume that your cBackup is installed in `/var/www/html`
     
         $ rm /var/www/html/update.lock
 
-Now update is finished, check if everything works as it is intended. 
+!!! note "Pay attention"
+    It's strongly recommended to reset your browser cache for your cBackup installation by pressing CTRL+F5
+
+!!! cite "Update is complete"
+    Now update is finished, check if everything works as it is intended. 

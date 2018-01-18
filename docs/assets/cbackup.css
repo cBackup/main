@@ -67,6 +67,11 @@
     color: darkgreen;
 }
 
-div[role=navigation] > ul > li.toctree-l1:last-child {
+/**
+ * Hide last section of 'hidden' pages both
+ * for local mkdocs and for readthedocs.io
+ */
+div[role=navigation] > ul.current > li:nth-last-child(-n+2):not(.toctree-l1),
+div[role=navigation] > ul.current > li:last-child {
     display: none;
 }
