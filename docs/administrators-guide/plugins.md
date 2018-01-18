@@ -2,7 +2,7 @@
 
 Plugins are addons for cBackup, providing additional functionality in web interface. Our team is certain that _tool with a word 'backup' in its name must do backups_, therefore services aside from the primary one should be moved to separate packages.
 
-We do encourage development of plugins and created [the guide for developers](../developers-guide/plugins) with detailed step-by-step explanation for plugin creation process. Also you can always request help on [official forums](http://cbackup.me/forum). However, on official downloads page only cBackup approved plugins will be stored ex tunc.
+We do encourage development of plugins and created [the guide for developers](../contributors-guide/plugins.md) with detailed step-by-step explanation for plugin creation process. Also you can always request help on [official forums](http://cbackup.me/forum). However, on official downloads page only cBackup approved plugins will be stored ex tunc.
 
 !!! warning
     Plugins have access to the whole application namespace and database. Installing unapproved plugin from a third-party you do it at your own peril.   
