@@ -36,11 +36,11 @@ pages:
 - Plugins:
     - General information: administrators-guide/plugins.md
     - Geolocation: administrators-guide/plugins/geolocation.md
+    - STP mapping: administrators-guide/plugins/stp.md
 - Contributors guide:
     - Translation: contributors-guide/translation.md
     - cBackup architecture: contributors-guide/architecture.md
     - Plugins: contributors-guide/plugins.md
-    - Java: contributors-guide/java1.md
     - application.properties: contributors-guide/java2.md
     - API v1: contributors-guide/apiv1.md
     - API v2: contributors-guide/apiv2.md
@@ -52,6 +52,7 @@ pages:
     - Ubuntu 16: getting-started/servers/ubuntu16.md
     - Web core: getting-started/install-web.md
     - Documentation license: LICENSE.md
+    - Java: contributors-guide/java1.md
 
 markdown_extensions:
   - admonition

@@ -9,6 +9,4 @@ As the name implies 'prepend location' prefix will be added before `system.SysLo
 
 Also a new entry will appear in main menu as `Plugins -> Geo mapping`. There you'll see list of processed nodes with detailed information about geo coordinates, creation and modification time. If you need information about data retrieving process, click `View geolocation logs` on the top right side of the grid. Second button `Collect geolocations` initializes forced refresh of all geolocation data for all nodes. Also you can refresh each node data individually by clicking <i class="fa fa-refresh"></i> next to desired node.
 
-!!! warning
-    Currently there's no native way to schedule task for recurrent obtaining data from Google maps. This feature will be added in the upcoming major release. At this moment, use system cron adding `./yii plugins/geomapping/run/get-geolocation` command to be executed after discovery.
- 
+You can schedule geolocation colleting via [scheduled tasks](../processes/#schedules) functionality, setting built-in task `geo_mapping`. This task is added to your cBackup automatically when you install the plugin.
