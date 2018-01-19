@@ -8,7 +8,7 @@ Available under `Processes -> Global variables` menu, these variables can repres
 
 # Schedules
 
-On the scheduled task list you may see two tabs for two schedule types: Tasks and Mail. The second one can be used to send regular reports about system state. And the first one can be called 'internal crontab' with appearance you may find familiar. To make things easier to comprehend, there's also a column 'Next run' with information when next sheduled task will be ckicked in:
+On the scheduled task list you may see two tabs for two schedule types: Tasks and Mail. The second one can be used to send regular reports about system state. And the first one can be called 'internal crontab' with appearance you may find familiar. To make things easier to comprehend, there's also a column 'Next run' with information when next sheduled task will be kicked in:
 
 ![Schedules](../assets/schedules.png)
 

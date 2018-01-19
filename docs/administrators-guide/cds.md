@@ -10,7 +10,7 @@ When you open `System -> Content delivery` it will try to update content listing
 !!! warning
     If you have the similarly-named device or authentication template, you'll see the warning. Remove your device or template and fetch content again. 
     
-By pressing <i class="fa fa-caret-square-o-down"></i> you can look through the code to be fetched to your cBackup. All code is plaing PHP using Yii2 framework notation and specifications. See [developers guide](../contributors-guide/architecture.md) for more information.
+By pressing <i class="fa fa-caret-square-o-down"></i> you can look through the code to be fetched to your cBackup. All code is plain PHP, using Yii2 framework notation and specifications. See [developers guide](../contributors-guide/architecture.md) for more information.
 
 # Managing installed entities
 

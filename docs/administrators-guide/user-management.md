@@ -1,6 +1,6 @@
 # Access model
 
-cBackup user management is based on Yii2 RBAC model as implementation of [CSRC NIST RBAC](https://csrc.nist.gov/projects/role-based-access-control). Uou can read about Yii2 RBAC in [framework official documentation](http://www.yiiframework.com/doc-2.0/guide-security-authorization.html#rbac) or in [Yii2 cookbook](https://yii2-cookbook.readthedocs.io/security-rbac/#rbac). If you are used to Yii v1 RBAC model, make sure you update your knowledge, because Yii2 RBAC is different by obsoleting Role-Task-Permission chain and changing inheritance model.
+cBackup user management is based on Yii2 RBAC model as implementation of [CSRC NIST RBAC](https://csrc.nist.gov/projects/role-based-access-control). You can read about Yii2 RBAC in [framework official documentation](http://www.yiiframework.com/doc-2.0/guide-security-authorization.html#rbac) or in [Yii2 cookbook](https://yii2-cookbook.readthedocs.io/security-rbac/#rbac). If you are used to Yii v1 RBAC model, make sure you update your knowledge, because Yii2 RBAC is different by obsoleting Role-Task-Permission chain and changing inheritance model.
 
 !!! note
     At this moment RBAC model only limits access to API calls. Later it will be extended to handle access to different cBackup parts and functionality.
