@@ -4,13 +4,20 @@ Available actions:
 
 * **Edit node**<br>It's possible to edit node only if it was added manually. Auto discovered nodes are not editable.
 * **Delete node**<br>As the name implies, you can delete node with all related data, including existing backups.
+* **Protect node**<br>If node is marked as `protected`, it won't be deleted by inactivity ([read more about purging inacitve nodes in paragraph **3. Nodes lifetime**](./system-configuration/#global-settings))
+* **Backup now**<br>Enqueues request to retrieve and save configuration right now.  
 
-On the left you see node general information retrieved during the discovery process via SNMP protocol. All information is readonly, except for `Prepend location` and represents prefix for location OID. This prefix can be set in [system configuration](system-configuration). In each node you can define it's own prefix which will override the default one. 
+## Node data
+
+On the left you see node general information retrieved during the discovery process via SNMP protocol.<br>All information is readonly, except for:
+
+ * `Prepend location`, that represents prefix for location OID. This prefix can be set in [system configuration](system-configuration). In each node you can define it's own prefix which will override the default one.
+ * `Credentials`, that can override authentication data for this particular node if default authentication path via devices/subnets does not satisfy your needs.
 
 
 The table below by default shows only one tab - actual configuration backup data. New tabs are added via plugins (e.g. 'geolocation'). Configuration backup can be viewed online, downloaded, copied to buffer (button `copy` becomes available when full configuration text is opened) or checked for changes. Changelog for node configuration is represented by `git log` diff functionality and looks the same. To track configuration changes, press <i class="fa fa-undo"></i> button and in the opened popup press <i class="fa fa-eye"></i> to view what has been changed. By default, only changes in last 31 days are shown (value can be set in [system configuration](system-configuration)).
 
-# Node information and subinterface management
+## Related information and subinterface management
 
 Tabs on the right side contain related logs, data about subinterfaces (you can change primary interface for the node if needed), assigned tasks and authentication data. 
 

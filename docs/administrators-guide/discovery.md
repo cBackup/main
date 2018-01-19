@@ -10,4 +10,4 @@ To work correctly, two entities must be defined:
 
 # How it works
 
-When both entries are configured, Java daemon at a set time will engage discovery task, processing defined networks in search of new or updated nodes. Any [excluded IP addresses](nodes/#exclusions) still will be discovered and saved to nodes list, but won't be processed by any other tasks, i.e. 'backup'. 
+When both entries are configured, Java daemon at a set time will engage discovery task, processing defined networks in search of new or updated nodes. Any [excluded IP addresses](nodes/#exclusions) won't be discovered and saved to nodes list. 
