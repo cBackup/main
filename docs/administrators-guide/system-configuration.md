@@ -33,6 +33,9 @@ These settings dilate to the whole system. Four global sections are available in
 6. **Default prepend location**<br>
     This is a string, that by default will be prepended to all locations in nodes. Can be useful for geolocation.
 
+7. **Git path**<br>
+    Path to git executable, ensure it's valid<br><br>
+    
 ### Git settings
 
 1. **Use Git**<br>
@@ -41,14 +44,11 @@ These settings dilate to the whole system. Four global sections are available in
 2. **Git username**, **Git email**<br>
     Username and email which will be used as author credentials for configuration file commits<br><br>
     
-4. **Use git remote**<br>
+3. **Use git remote**<br>
     You can push data to remote Git repository, if you would like to use it as additional safety replication layer. E.g. you can push it to your local gitlab installation. If you use **git remote**, it's also necessary to enter valid data in **git login** and **git password** fields in the configuration.
     
     !!! warning
          We strictly discourage you from using Github, Bitbucket or any other public services as long as your configuration files can contain sensitive data.
-    
-3. **Git path**<br>
-    Path to git executable, ensure it's valid<br><br>
     
 4. **Git log display period**<br>
     For what perios in days changes in configuration will be displayed under <i class="fa fa-undo"></i> button. Please note, that commit log itself is not truncated, this setting only affects data in the web interface popup under <i class="fa fa-undo"></i> button.

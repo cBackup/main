@@ -18,7 +18,7 @@ sudo apt-get install git snmp default-jre openssh-server
 #### Install LAMP web server
 
 ```bash
-sudo apt-get install lamp-server^
+sudo apt-get install lamp-server
 sudo mysql_secure_installation
 ```
 
@@ -63,3 +63,6 @@ Open up you browser pointing to `http://your.server.name/cbackup/index.php` and 
 
 !!! cite "Setup complete"
     Now you can start using your cBackup and proceed with its [initial setup](/getting-started/initial-setup.md)
+
+!!! danger "Upgrade and DPKG"
+    At no circumstances dont use `dpkg`, `gdebi` or `apt` to upgrade your cBackup installation. Package managers are not aware of upgrade procedures and will overwrite your installation with fresh version without applying migrations to commit changes to database scheme.

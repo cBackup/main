@@ -14,8 +14,11 @@ On the left you see node general information retrieved during the discovery proc
  * `Prepend location`, that represents prefix for location OID. This prefix can be set in [system configuration](system-configuration). In each node you can define it's own prefix which will override the default one.
  * `Credentials`, that can override authentication data for this particular node if default authentication path via devices/subnets does not satisfy your needs.
 
-
 The table below by default shows only one tab - actual configuration backup data. New tabs are added via plugins (e.g. 'geolocation'). Configuration backup can be viewed online, downloaded, copied to buffer (button `copy` becomes available when full configuration text is opened) or checked for changes. Changelog for node configuration is represented by `git log` diff functionality and looks the same. To track configuration changes, press <i class="fa fa-undo"></i> button and in the opened popup press <i class="fa fa-eye"></i> to view what has been changed. By default, only changes in last 31 days are shown (value can be set in [system configuration](system-configuration)).
+
+!!! note
+    * Please note, that "History" for node configuration is available only if "File storage" is set as target for task `backup` and `git_commit` task is active in the schedule and is performed _after_ the backup. 
+    * To see history for particular configuration file right after "Backup now", finalize the backup process by commiting changes to Git (press <i class="fa fa-play-circle-o"></i> icon on `git_commit`).
 
 ## Related information and subinterface management
 
