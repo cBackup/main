@@ -82,3 +82,6 @@ Open up you browser pointing to `http://your.server.name/cbackup/index.php` and 
 
 !!! cite "Setup complete"
     Now you can start using your cBackup and proceed with its [initial setup](/getting-started/initial-setup.md)
+
+!!! danger "Upgrade and RPM"
+    At no circumstances dont use `rpm -Uvh` to upgrade your cBackup installation. Package managers are not aware of upgrade procedures and will overwrite your installation with fresh version without applying migrations to commit changes to database scheme.
