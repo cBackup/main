@@ -1,6 +1,16 @@
 cBackup change log
 ==================
 
+1.1.2
+-----
+
+- Fix: Endless loading while adding authentication template in device modal
+- Fix: Some missing translations and latest Yii2 framework comatibility issues
+
+- Enh: Console command to flush all assets. Useful for updating cBackup instance
+
+- Del: Live Update is no longer available. Failed in trust
+
 1.1.0
 -----
 
