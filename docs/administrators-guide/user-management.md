@@ -18,7 +18,7 @@ Alongside with regular users, there're three system users, that are considered a
 
 # Access rights
 
-These entries represent RBAC model access-level entities of two types: Roles and Permissions. RBAC implements heirarchical access model. Role can have other role or permission as a heir. And permission can belong to a permission or to have other permission as a heir. Both entities can be standalone and not related to any other enity. There're also three *'protected'* entries:
+These entries represent RBAC model access-level entities of two types: Roles and Permissions. RBAC implements hierarchical access model. Role can have other role or permission as a heir. And permission can belong to a permission or to have other permission as a heir. Both entities can be standalone and not related to any other enity. There're also three *'protected'* entries:
 
 * **admin**, type: `Role`<br>
     system entity for root user;<br><br>
