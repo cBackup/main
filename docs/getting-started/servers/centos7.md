@@ -60,6 +60,18 @@ sudo firewall-cmd --add-service=http --permanent
 sudo firewall-cmd --reload
 ```
 
+#### Change /etc/sudoers settings
+
+Comment string "Defaults    requiretty"  to avoid error "sudo: sorry, you must have a tty to run sudo", that prevents Java service from starting. Details here https://github.com/cBackup/main/issues/18
+
+```
+#sudo visudo
+
+Find string and comment it out with #
+
+#Defaults    requiretty
+```
+
 #### Download cbackup RPM and install it
 
 ```bash
